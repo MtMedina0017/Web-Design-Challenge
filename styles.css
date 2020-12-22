@@ -1,5 +1,44 @@
 .Summary {
-    color:teal;
+    color: lightseagreen;
+    font-size: 24px;
+    font-weight: bold;
+    text-align:left;
+}
+
+header {
+    background:lightseagreen;
+    color: white;
+  }
+img { 
+    float: left;  
+    margin: 5px;
+    width: 50%;
+    height: auto;
+} 
+p { 
+    text-align: justify; 
+    font-size: 25px;
+    line-height: 1.6;
+} 
+
+
+
+.Visual {
+    color:lightseagreen;
+    font-weight: 700;
+
+}
+
+
+.Comparison {
+    color:lightseagreen;
+    font-weight: 700;
+
+}
+
+
+.Data {
+    color:lightseagreen;
     font-weight: 700;
 
 }
