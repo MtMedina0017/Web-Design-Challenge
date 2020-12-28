@@ -1,15 +1,19 @@
-.Summary {
+.LandingPage {
     color: lightseagreen;
     font-size: 24px;
     font-weight: bold;
     text-align:left;
+}
+.VisPage{
+    margin-top: 20%;
+
 }
 
 header {
     background:lightseagreen;
     color: white;
   }
-img { 
+.LandingPageImage { 
     float: left;  
     margin: 5px;
     width: 50%;
@@ -30,7 +34,7 @@ p {
 }
 
 
-.Comparison {
+.Comparisons {
     color:lightseagreen;
     font-weight: 700;
 

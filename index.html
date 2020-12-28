@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Web-Design Homework M. Medina</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,11 +16,11 @@
     <h1>Latitude</h1>
   </header>
 
-    <div class="Summary">
+    <div class="LandingPage">
         <h1>Summary: Latitude vs. X</h1>
         <div>
 
-        <img src="images/Fig1.png">
+        <img class = "LandingPageImage" src= "images/Fig1.png">
 
         </div>
         <p>The purpose of this project was to analyze how weather changes as
@@ -34,14 +35,30 @@
           and correlations witnessed.</p>
     </div>
 
-    <a href = "visual1.html">
-      <img src="images/Fig1.png">
-      <img src="images/Fig2.png">
-      <img src="images/Fig3.png">
-      <img src="images/Fig4.png">
-    </a>
+<div class="VisPage">
+    <div class="LandingPage">
+      <h1>Visualizations</h1>
+      <div>
 
-
+    <div class="row">
+      <div class="col">
+        <a href="maxtemp.html">
+        <img src="images/Fig1.png" alt="Lat v Temp" style="width:100%"></a>
+      </div>
+      <div class="col">
+        <a href="humidity.html">
+        <img src="images/Fig2.png" alt="Lat v Humidity" style="width:100%"></a>
+      </div>
+      <div class="col">
+        <a href="cloudiness.html">
+        <img src="images/Fig3.png" alt="Lat v Cloudiness" style="width:100%"></a>
+      </div>
+      <div class="col">
+        <a href="windspeed.html">
+        <img src="images/Fig4.png" alt="Lat v Wind Speed" style="width:100%"></a>
+      </div>
+    </div>
+      </div>
 
     
 </body>
